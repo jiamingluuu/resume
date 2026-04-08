@@ -35,33 +35,27 @@ jiaming.lu.0124\@gmail.com |
 
 == Work Experience
 #chiline()
-*TikTok #h(1fr) 2026.05 -- 2026.08 (Expected)*\
-_Software Developer Intern #h(1fr) Beijing, China_ \
-#text(gray)[ To be wrapped up... ]
+*TikTok* | Software Developer Intern, Incoming #h(1fr) *2026.05 -- 2026.08 (Expected)*\
 
-*Tencent* #h(1fr) 2025.05 -- 2025.08 \
-_Software Developer Intern #h(1fr) Beijing, China_ \
-- Contributed to two core production-facing projects at Tencent: an LLM-based alert analysis agent and a real-time user profile computation system.
-- Engineered an LLM-based alert root cause analysis agent, saving 15+ engineering hours per week.
+*Tencent* | Software Developer Intern #h(1fr) *2025.05 -- 2025.08* \
+- Optimized an alert root-cause analysis agent using LangGraph, achieving 87\% diagnostics accuracy and saving 15+ engineering hours per week.
 - Designed a human-in-the-loop feedback pipeline to capture failure cases and refine prompts/workflows, enhancing alert resolution accuracy and accelerating iteration.
-- Built an asynchronous proxy layer with thread-safe LRU-K cache, cutting storage cluster network bandwidth consumption by 43\% and reducing read amplification by 79\% for upstream RPCs.
+- Built an asynchronous proxy layer with thread-safe LRU-K cache for a user profile computation system, cutting storage cluster network bandwidth consumption by 43\% and reducing read amplification by 79\% for upstream RPCs.
 - Implemented a cache-aware SIMD pooling operator for feature aggregation, reducing TP99 latency from 264μs to 93μs.
 
-*Urban Data Centre, University of Toronto #h(1fr) 2024.09 -- 2025.03* \
-_Software Engineer and AI/NLP Analyst #h(1fr) Toronto, Canada_ \
-- Built a RAG pipeline to reduce language model hallucinations when processing entity references of homonyms.
+*Urban Data Centre* | AI/NLP Analyst #h(1fr) *2024.09 -- 2025.03* \
+- Built a RAG pipeline for entity disambiguation in homonymous references, reducing hallucinated answer generations.
 - Developed Python ETL pipelines to transform complex knowledge graph ontologies into XML/JSONL corpora, enabling a robust knowledge source for the RAG-based question answering.
 - Fine-tuned a LLaMA-3-8B model with LoRA for English-to-SPARQL generation, replacing a rule-based baseline and improving query precision using schema-aware prompting.
 
-*JD.com, Inc. #h(1fr) 2024.05 -- 2024.08* \
-_Software Developer Intern #h(1fr) Beijing, China_ \
+*JD.com, Inc.* | Software Developer Intern #h(1fr) *2024.05 -- 2024.08* \
 - Contributed to backend middleware for JD's shopping navigation search services on a large-scale e-commerce platform.
 - Engineered a multi-threaded pipeline with rate limiting and concurrency control for incremental inverted-index loading, enabling real-time search updates.
-- Refactored service routing registration into a unified API (500+ LoC), eliminating duplicated configuration and simplifying onboarding for new services.
+- Refactored service routing registration into a unified API, eliminating duplicated configuration and simplifying setup effort for new search services.
+- Authored technical documentation for modern C++ practices, adopted as a cross-team reference for intern onboarding.
 // - Optimized search query responses for the index merging server and collaborated with the front-end team to refine retrieval visualization protocols, enhancing the development workflow for all dependent micro-services.
 
-*University of Toronto #h(1fr) 2023.01 -- Present* \
-_Teaching Assistant #h(1fr) Toronto, Canada_ \
+*University of Toronto* | Teaching Assistant #h(1fr) *2023.01 -- Present* \
 - Delivered grading, office hours, and one-on-one tutoring for undergraduate computer science and mathematics courses.
 - Supported 300+ students and provided 100+ hours of tutoring across Introduction to Computer Science and Linear Algebra.
 
@@ -71,7 +65,7 @@ _Teaching Assistant #h(1fr) Toronto, Canada_ \
 
 == Technical Skills
 #chiline()
-- *Programming Languages:* C, C++, Golang, Python, Rust, Java, Javascript, Bash.
-- *Libraries:* PyTorch, Tensorflow, LangChain, LangGraph, Pandas, Matplotlib, gRPC, Redis, Kafka, MySQL.
-- *Langagues:* English (Advanced), Chinese (Native).
-
+- *Programming Languages:* C, C++, Go, Python, Rust, Java, JavaScript, Bash, SQL.
+- *Frameworks/Libraries:* PyTorch, TensorFlow, Hugging Face Transformers, PEFT, scikit-learn, LangChain, LangGraph.
+- *Tools/Systems:* Linux, Git, Docker, Redis, Kafka, MySQL, PostgreSQL, AddressSanitizer, Valgrind, pprof.
+- *Languages:* English (Advanced), Chinese (Native).

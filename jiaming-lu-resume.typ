@@ -12,30 +12,36 @@
 
 #set par(justify: true)
 
-#let chiline() = { v(-3pt); line(length: 100%); v(-5pt) }
+#let chiline() = {
+  v(-3pt)
+  line(length: 100%)
+  v(-5pt)
+}
 
 #let lastupdated(date) = {
-  h(1fr); text("Last Updated in " + date, fill: color.gray)
+  h(1fr)
+  text("Last Updated in " + date, fill: color.gray)
 }
 #show heading.where(level: 1): set text(size: 18pt)
 #show heading.where(level: 2): set text(size: 14pt)
 #align(center)[
-= Jiaming Lu
-
-jiaming.lu.0124\@gmail.com |
-#link("https://github.com/jiamingluuu")[github.com/jiamingluuu] | (+1) 647-879-0992 | #link("https://www.linkedin.com/in/jiaming-lu-924992253/")[linkedin.com/in/jiaming-lu-924992253/]
+  = Jiaming Lu
+  jiaming.lu.0124\@gmail.com |
+  #link("https://github.com/jiamingluuu")[github.com/jiamingluuu] | (+1) 647-879-0992 | #link("https://www.linkedin.com/in/jiaming-lu-924992253/")[linkedin.com/in/jiaming-lu-924992253/]\
+  *Student Pass holder (Need Work Pass Sponsor) | Available Immediately*
 ]
 
 == Education
 #chiline()
 *Nanyang Technological University#h(1fr) 2026.08 -- 2027.06 (Expected)* \
-- _MSc in Artificial Intelligence_ 
+- _MSc in Artificial Intelligence_
 *University of Toronto #h(1fr) 2021.09 -- 2026.06* \
 - _BSc in Computer Science_
 
 == Work Experience
 #chiline()
 *TikTok* | Software Developer Intern, Incoming #h(1fr) *2026.05 -- 2026.08 (Expected)*\
+- Optimized hot path data packing operators with flamegraph, decreasing average latency by 4.2ms, CPU utilization by 5%.
 
 *Tencent* | Software Developer Intern #h(1fr) *2025.05 -- 2025.08* \
 - Optimized an alert root-cause analysis agent using LangGraph, achieving 87\% diagnostics accuracy and saving 15+ engineering hours per week.
@@ -55,7 +61,7 @@ jiaming.lu.0124\@gmail.com |
 - Authored technical documentation for modern C++ practices, adopted as a cross-team reference for intern onboarding.
 // - Optimized search query responses for the index merging server and collaborated with the front-end team to refine retrieval visualization protocols, enhancing the development workflow for all dependent micro-services.
 
-*University of Toronto* | Teaching Assistant #h(1fr) *2023.01 -- Present* \
+*University of Toronto* | Teaching Assistant #h(1fr) *2023.01 -- 2026.04* \
 - Delivered grading, office hours, and one-on-one tutoring for undergraduate computer science and mathematics courses.
 - Supported 300+ students and provided 100+ hours of tutoring across Introduction to Computer Science and Linear Algebra.
 

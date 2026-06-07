@@ -27,7 +27,7 @@
 #align(center)[
   = Jiaming Lu
   jiaming.lu.0124\@gmail.com |
-  #link("https://github.com/jiamingluuu")[github.com/jiamingluuu] | (+1) 647-879-0992 | #link("https://www.linkedin.com/in/jiaming-lu-924992253/")[linkedin.com/in/jiaming-lu-924992253/]\
+  #link("https://github.com/jiamingluuu")[github.com/jiamingluuu] | (+86) 173-2686-6550 | #link("https://www.linkedin.com/in/jiaming-lu-924992253/")[linkedin.com/in/jiaming-lu-924992253/]\
   *Student Pass holder (Need Work Pass Sponsor) | Available Immediately*
 ]
 
@@ -40,8 +40,9 @@
 
 == Work Experience
 #chiline()
-*TikTok* | Software Developer Intern, Incoming #h(1fr) *2026.05 -- 2026.08 (Expected)*\
+*TikTok* | Software Developer Intern #h(1fr) *2026.05 -- 2026.08 (Expected)*\
 - Optimized hot path data packing operators with flamegraph, decreasing average latency by 4.2ms, CPU utilization by 5%.
+- Conducted thorough query and user feature migration, designed a diff test across 5 microservices and 647 features in total.
 
 *Tencent* | Software Developer Intern #h(1fr) *2025.05 -- 2025.08* \
 - Optimized an alert root-cause analysis agent using LangGraph, achieving 87\% diagnostics accuracy and saving 15+ engineering hours per week.

@@ -28,13 +28,13 @@
   = Jiaming Lu
   jiaming.lu.0124\@gmail.com |
   #link("https://github.com/jiamingluuu")[github.com/jiamingluuu] | (+86) 173-2686-6550 | #link("https://www.linkedin.com/in/jiaming-lu-924992253/")[linkedin.com/in/jiaming-lu-924992253/]\
-  *Student Pass holder (Need Work Pass Sponsor) | Available Immediately*
+  *Student Pass holder | Available Immediately*
 ]
 
 == Education
 #chiline()
-*Nanyang Technological University#h(1fr) 2026.08 -- 2027.06 (Expected)* \
-- _MSc in Artificial Intelligence_
+*Nanyang Technological University#h(1fr) 2026.08 -- 2027.11 (Expected)* \
+- _MSc in Artificial Intelligence_ 
 *University of Toronto #h(1fr) 2021.09 -- 2026.06* \
 - _BSc in Computer Science_
 

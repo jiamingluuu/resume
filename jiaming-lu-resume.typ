@@ -28,21 +28,22 @@
   = Jiaming Lu
   jiaming.lu.0124\@gmail.com |
   #link("https://github.com/jiamingluuu")[github.com/jiamingluuu] | (+86) 173-2686-6550 | #link("https://www.linkedin.com/in/jiaming-lu-924992253/")[linkedin.com/in/jiaming-lu-924992253/]\
-  *Student Pass holder | Available Immediately*
+  *Student Pass Holder | Available Immediately*
 ]
 
 == Education
 #chiline()
 *Nanyang Technological University#h(1fr) 2026.08 -- 2027.11 (Expected)* \
-- _MSc in Artificial Intelligence_ 
+- _MSc in Artificial Intelligence_
 *University of Toronto #h(1fr) 2021.09 -- 2026.06* \
 - _BSc in Computer Science_
 
 == Work Experience
 #chiline()
 *TikTok* | Software Developer Intern #h(1fr) *2026.05 -- 2026.08 (Expected)*\
+- Conducted a thorough feature migration for the user and query side of the online architecture for TikTok general search, designed a diff test across 5 microservices and 130+ features in total.
+- Designed feature processing path for query correction of the new architecture, reducing predicted CTR score diff by 3%.
 - Optimized hot path data packing operators with flamegraph, decreasing average latency by 4.2ms, CPU utilization by 5%.
-- Conducted thorough query and user feature migration, designed a diff test across 5 microservices and 647 features in total.
 
 *Tencent* | Software Developer Intern #h(1fr) *2025.05 -- 2025.08* \
 - Optimized an alert root-cause analysis agent using LangGraph, achieving 87\% diagnostics accuracy and saving 15+ engineering hours per week.

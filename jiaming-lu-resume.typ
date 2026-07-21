@@ -39,7 +39,7 @@
 
 == Work Experience
 #chiline()
-*TikTok* | Software Engineer Intern #h(1fr) *2026.05 -- 2026.08 (Expected)*\
+*TikTok* | Software Engineer Intern #h(1fr) *2026.05 -- 2026.12 (Expected)*\
 - Conducted a thorough feature migration for the user and query side of the online architecture for TikTok comprehensive search, designed a diff test across 5 microservices and 130+ features in total.
 - Optimized fine-rank LRM serving with two-stage inference. // TODO: add results.
 

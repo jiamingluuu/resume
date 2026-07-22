@@ -40,11 +40,12 @@
 == Work Experience
 #chiline()
 *TikTok* | Software Engineer Intern #h(1fr) *2026.05 -- 2026.12 (Expected)*\
-- Conducted a thorough feature migration for the user and query side of the online architecture for TikTok comprehensive search, designed a diff test across 5 microservices and 130+ features in total.
-- Optimized fine-rank LRM serving with two-stage inference. // TODO: add results.
+- Drove a production search-ranking architecture migration, moving 120+ query- and user-side features across the coarse- and fine-ranking stages.
+- Designed, implemented, and validated an automated differential-testing pipeline spanning five microservices, comparing outputs from the legacy and new architectures to ensure feature parity throughout the migration.
+- Reworked the fine-ranking operator pipeline for dual-path query-correction traffic, reducing the average predicted CTR score gap between the legacy and new services by 8% and ultimately achieving metric parity.
 
 *Tencent* | Software Engineer Intern #h(1fr) *2025.05 -- 2025.08* \
-- Optimized an alert root-cause analysis agent using LangGraph, achieving 87\% diagnostics accuracy and saving 15+ engineering hours per week.
+- Optimized an alert root-cause analysis agent, saving 15+ engineering hours per week with 87\% diagnostic accuracy.
 - Designed a human-in-the-loop feedback pipeline to capture failure cases and refine prompts/workflows, enhancing alert resolution accuracy and accelerating iteration.
 - Built an asynchronous proxy layer with thread-safe LRU-K cache for a user profile computation system, cutting storage cluster network bandwidth consumption by 43\% and reducing read amplification by 79\% for upstream RPCs.
 - Implemented a cache-aware SIMD pooling operator for embedding pooling, reducing TP99 latency from 264μs to 93μs.

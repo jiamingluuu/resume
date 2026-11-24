@@ -3,6 +3,7 @@
 #set text(
   font: "Times New Roman",
   size: 11pt,
+  hyphenate: false,
 )
 
 #set page(
@@ -40,22 +41,22 @@
 == Work Experience
 #chiline()
 *TikTok* | Software Engineer Intern #h(1fr) *2026.05 -- 2027.06 (Expected)*\
-- Collaborated closely with MLEs to provide customized serving & training optimization solutions for two business lines.
-- Optimized a TensorFlow ranking model by kernel fustion, reducing inference latency by 47% and GPU kernel launches by ~31%
-- Lead distributed training framework migration across 3 MLE teams, saving \~50% CPU consumption per training job.
-- Enhanced the training thoroughput by 119% (82k ins/s $arrow$ 180 ins/s) by resolving the out-graph bottlenecks.
-- Conducted in-graph/out-graph optimization, increased the online serving SM Active by 238% ($11.6% arrow 37.9%$), thoroughput by 29.8% (8.51k $arrow$ 11.05k qps).
+- Collaborated closely with MLEs to provide customized training & serving optimization solutions for two business lines.
+- Lead training framework migration across three teams, increased throughput by 119% (82k ins/s $arrow$ 180 ins/s) in batch training job, stream job's CPU consumption by 64% and GPU by 50% (8 $arrow$ 4 L20 GPUs), while preserving offline AUC.
+- Conducted thorough in-graph (kernel fusion, masking rewrite, graph break elimination) and out-graph (batching, service re-configuration) optimization of model serving, enhancing throughput by 17.4% and SM Active by 80.9%, freeing 48 L20 GPUs for reassignment to training and easing GPU capacity constraints.
+- Fixed startup CUDA OOM in a 2.9B-parameter PyTorch MoE model by eliminating redundant GPU weight initialization, reducing local peak GPU memory by 45% with bitwise parity across 392 output tensors.
+- Repaired PyTorch AOT cache generation and loading by removing data-dependent graph breaks, reducing the affected path from five graphs to one and validating model snapshot loading in two regions.
 
 *Tencent* | Software Engineer Intern #h(1fr) *2025.05 -- 2025.08* \
 - Optimized an alert root-cause analysis agent, saving 15+ engineering hours per week with 87\% diagnostic accuracy.
-- Designed a human-in-the-loop feedback pipeline to capture failure cases and refine prompts/workflows, enhancing alert resolution accuracy and accelerating iteration.
+- Built a human-in-the-loop feedback pipeline to refine agent prompts and workflows, improving alert-resolution accuracy.
 - Built an asynchronous proxy layer with thread-safe LRU-K cache for a user profile computation system, cutting storage cluster network bandwidth consumption by 43\% and reducing read amplification by 79\% for upstream RPCs.
 - Implemented a cache-aware SIMD pooling operator for embedding pooling, reducing TP99 latency from 264μs to 93μs.
 
 *Urban Data Centre* | AI/NLP Analyst #h(1fr) *2024.09 -- 2025.03* \
 - Built a RAG pipeline for entity disambiguation in homonymous references, reducing hallucinated answer generations.
-- Developed Python ETL pipelines to transform complex knowledge graph ontologies into XML/JSONL corpora, enabling a robust knowledge source for the RAG-based question answering.
-- Fine-tuned a LLaMA-3-8B model with LoRA for English-to-SPARQL generation, replacing a rule-based baseline and improving query precision using schema-aware prompting.
+- Converted knowledge-graph ontologies to XML/JSONL corpora with Python ETL pipelines for RAG question answering.
+- Fine-tuned LLaMA-3-8B with LoRA and schema-aware prompts to improve English-to-SPARQL precision.
 
 *JD.com, Inc.* | Software Engineer Intern #h(1fr) *2024.05 -- 2024.08* \
 - Contributed to backend middleware for JD's shopping navigation search services on a large-scale e-commerce platform.

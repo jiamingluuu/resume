@@ -26,7 +26,7 @@
 #align(center)[
   = Jiaming Lu
   jiaming.lu.0124\@gmail.com |
-  #link("https://github.com/jiamingluuu")[github.com/jiamingluuu] | (+86) 173-2686-6550 | #link("https://www.linkedin.com/in/jiaming-lu-924992253/")[linkedin.com/in/jiaming-lu-924992253/]\
+  #link("https://github.com/jiamingluuu")[github.com/jiamingluuu] | (+65) 8066-5102 | #link("https://www.linkedin.com/in/jiaming-lu-924992253/")[linkedin.com/in/jiaming-lu-924992253/]\
   *Student Pass Holder | Available Immediately*
 ]
 
@@ -39,10 +39,12 @@
 
 == Work Experience
 #chiline()
-*TikTok* | Software Engineer Intern #h(1fr) *2026.05 -- 2026.12 (Expected)*\
-- Drove a production search-ranking architecture migration, moving 120+ query- and user-side features across the coarse- and fine-ranking stages.
-- Designed, implemented, and validated an automated differential-testing pipeline spanning five microservices, comparing outputs from the legacy and new architectures to ensure feature parity throughout the migration.
-- Reworked the fine-ranking operator pipeline for dual-path query-correction traffic, reducing the average predicted CTR score gap between the legacy and new services by 8% and ultimately achieving metric parity.
+*TikTok* | Software Engineer Intern #h(1fr) *2026.05 -- 2027.06 (Expected)*\
+- Collaborated closely with MLEs to provide customized serving & training optimization solutions for two business lines.
+- Optimized a TensorFlow ranking model by kernel fustion, reducing inference latency by 47% and GPU kernel launches by ~31%
+- Lead distributed training framework migration across 3 MLE teams, saving \~50% CPU consumption per training job.
+- Enhanced the training thoroughput by 119% (82k ins/s $arrow$ 180 ins/s) by resolving the out-graph bottlenecks.
+- Conducted in-graph/out-graph optimization, increased the online serving SM Active by 238% ($11.6% arrow 37.9%$), thoroughput by 29.8% (8.51k $arrow$ 11.05k qps).
 
 *Tencent* | Software Engineer Intern #h(1fr) *2025.05 -- 2025.08* \
 - Optimized an alert root-cause analysis agent, saving 15+ engineering hours per week with 87\% diagnostic accuracy.
@@ -66,9 +68,9 @@
 - Delivered grading, office hours, and one-on-one tutoring for undergraduate computer science and mathematics courses.
 - Supported 300+ students and provided 420+ hours of tutoring across Introduction to Computer Science and Linear Algebra.
 
-== Publications
-#chiline()
-- Lu, J. (2024). Parallel implementation of Wiener's attack on RSA: Algorithm design and performance evaluation. _Applied and Computational Engineering, 37_ 184–190. https://doi.org/10.54254/2755-2721/37/20230503
+// == Publications
+// #chiline()
+// - Lu, J. (2024). Parallel implementation of Wiener's attack on RSA: Algorithm design and performance evaluation. _Applied and Computational Engineering, 37_ 184–190. https://doi.org/10.54254/2755-2721/37/20230503
 
 == Technical Skills
 #chiline()
